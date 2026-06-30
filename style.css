@@ -1676,3 +1676,28 @@ select.form-input {
     font-size: 1rem;
   }
 }
+
+/* Mobile Fixed Apply Button */
+.mobile-fixed-btn {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .hero-btn {
+    display: none !important;
+  }
+  .mobile-fixed-btn {
+    display: flex !important;
+    position: fixed !important;
+    bottom: 20px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    z-index: 999999 !important;
+    width: calc(100% - 40px) !important;
+    max-width: 400px !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3) !important;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
