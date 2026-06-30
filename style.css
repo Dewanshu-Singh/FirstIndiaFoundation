@@ -315,7 +315,7 @@ img { display: block; max-width: 100%; }
   .nav-logo-image { height: 40px; }
   .navbar.scrolled .nav-logo-image { height: 32px; }
   .logo-group { gap: 0.75rem; }
-  .nav-btn { padding: 0.4rem 0.75rem; font-size: 0.75rem; }
+  .nav-btn { display: none !important; }
 }
 
 /* ============================================================
