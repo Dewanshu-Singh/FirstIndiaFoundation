@@ -306,7 +306,7 @@ img { display: block; max-width: 100%; }
   border-bottom: 1px solid var(--border-color);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
 }
-.mobile-menu.open { max-height: 400px; padding: 2rem; opacity: 1; pointer-events: all; }
+.mobile-menu.open { max-height: 600px; padding: 2rem; opacity: 1; pointer-events: all; overflow-y: auto; }
 .mobile-link { font-size: 1.25rem; font-weight: 600; color: var(--text-primary); }
 
 @media (max-width: 768px) {
