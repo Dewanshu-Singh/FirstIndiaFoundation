@@ -1581,7 +1581,7 @@ select.form-input {
 .step-circle {
   width: 65px;
   height: 65px;
-  background: var(--gradient-primary);
+  background: linear-gradient(135deg, #8a0b1f 0%, #5a000a 100%);
   color: white;
   border-radius: 50%;
   display: flex;
